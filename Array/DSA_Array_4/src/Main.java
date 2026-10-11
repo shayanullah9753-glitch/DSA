@@ -1,10 +1,10 @@
 public class Main {
     static int findMaximum(int[] arr) {
         int n = arr.length;
-        int highest = arr[0];
         if (n == 0) {
             return -1;
         }
+        int highest = arr[0];
         for(int i = 0; i < n; i++) {
             if (arr[i] > highest) {
                 highest = arr[i];
